@@ -7,7 +7,6 @@ init_daemon_domain(location)
 allow location self:capability setgid;
 
 # files in /sys
-r_dir_file(location, sysfs_soc)
 r_dir_file(location, sysfs_esoc)
 r_dir_file(location, sysfs_msm_subsys)
 r_dir_file(location, sysfs_ssr)
